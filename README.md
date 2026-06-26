@@ -1,8 +1,5 @@
 # backendEvents
 
-Express API organized with config, controllers, middlewares, models, routes, services, and utilities.
-
-## Structure
 
 ```text
 src/
@@ -29,9 +26,3 @@ server.js
 Set the values in `.env` for PostgreSQL and JWT configuration.
 
 ## Routes
-
-- `GET /` returns all events.
-- `GET /health` returns the health status.
-- `POST /auth/register` creates a user account and returns a JWT.
-- `POST /auth/login` authenticates a user and returns a JWT.
-- `GET /users` returns all users and requires a Bearer token.
